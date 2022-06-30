@@ -34,6 +34,21 @@ propose changes to this document in a pull request.
  * Use the imperative mood ("Move cursor to …" not "Moves cursor to …").
  * Reference issues and pull requests liberally.
 
+## Release Plan
+
+* Each new minor version is developed for about six months. During this period new 
+  features may be added via pull requests to the [mono repo][4]. 
+* You can see, when a new release is developed and published on the 
+  [Contao project website][5]. This are approximations ;-)
+* In order for your pull request to be considered for the upcoming release, be aware 
+  that your pull requests must be „ready to merge“ two weeks before the end of the 
+  development period:
+   * The PR must be feature-complete
+   * Each feature is covered with unit tests
+   * All lights in the CI pipeline are green
+
 [1]: https://github.com/contao
 [2]: https://demo.contao.org/contao
 [3]: https://contao.org/en/mumble-calls.html
+[4]: https://github.com/contao/contao
+[5]: https://contao.org/en/release-plan.html
