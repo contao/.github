@@ -5,9 +5,8 @@ secure!
 
 ## Reporting a security issue
 
-If you think that you have found a security issue in Contao, please send an
-email to **security [at] contao.org**. Emails to this address will be forwarded
-to a private channel of the Contao core team.
+If you think that you have found a security issue in Contao, please
+[open a security advisory][1] on GitHub.
 
 Never disclose any information about a vulnerability on the public web (blog
 posts, tweets, GitHub issues, etc.) before the vulnerability has been
@@ -18,11 +17,11 @@ acknowledged and fixed in a new Contao version!
 For every report, we first attempt to confirm the vulnerability. When it is
 confirmed, the core team works on a solution following these steps:
 
-1. Send an acknowledgement to the reporter;
+1. Acknowledge the security advisory;
 2. Work on a patch;
-3. Obtain a CVE identifier from mitre.org;
+3. Obtain a CVE identifier;
 4. Publish a security announcement on contao.org;
-5. Send the patch to the reporter for review;
+5. Ask the reporter to review the patch pull request;
 6. Apply the patch to all maintained versions of Contao;
 7. Release new versions for all affected versions;
 8. Announce the new versions and the vulnerability on contao.org;
@@ -35,7 +34,8 @@ report them responsibly, but we are currently unable to pay bug bounties.
 
 ## Security advisories
 
-Check the [security advisories][1] for a list of all security vulnerabilities
+Check the [security advisories][2] for a list of all security vulnerabilities
 that were already found and fixed in Contao.
 
-[1]: https://github.com/contao/contao/security/advisories
+[1]: https://github.com/contao/contao/security/advisories/new
+[2]: https://github.com/contao/contao/security/advisories
